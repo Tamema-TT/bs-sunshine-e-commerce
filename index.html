@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine E-commerce</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom css stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/4951b7ad3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <!-- navbar starts -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-white">
+            <div class="container">
+                <div class="logo ">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="images/logo-2.jpg" width="70" alt="">
+                        <h3>Sunshine</h3>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <form class="d-flex bg-light rounded-5" role="search">
+                    <input class="form-control border border-0 bg-transparent" type="search" placeholder="Search" aria-label="Search" aria-describedby="Search">
+                    <button class="btn" type="submit" id="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>     
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#stroller">Stroller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ends -->
+
+        <!-- image slider starts -->
+        <section class="container cus-slider-margin">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active cus-bg-pink bg-gradient rounded-4">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-7">
+                                <h1 class="text-capitalize">Cute baby crib</h1>
+                                <p>High quality baby crip for your little sunshine</p>
+                                <h1 class="slider-price">$420</h1>
+                                <button class="btn cus-btn-buy-now">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/bed.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item cus-bg-pink bg-gradient rounded-4">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-7">
+                                <h1 class="text-capitalize">Baby feeding set</h1>
+                                <p>This set is harmfree for babies</p>
+                                <h1 class="slider-price">$150</h1>
+                                <button class="btn cus-btn-buy-now">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/plates.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  cus-bg-pink bg-gradient rounded-4">
+                        <div class="row d-flex align-items-center p-5">
+                            <div class="col-lg-7">
+                                <h1 class="text-capitalize">Bottle Sterilizer</h1>
+                                <p>This is the best sterilizer </p>
+                                <h1 class="slider-price">$600</h1>
+                                <button class="btn cus-btn-buy-now">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/steriliser.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>       
+        </section>     
+        <!-- image slider ends -->
+    </header>
+    <main>
+    <!-- shoes start -->
+    <section class="container mt-5" id="shoes">
+        <h1 class="text-uppercase">Shoes</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/shoes/shoe-1.png" class="card-img-top cus-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-capitalize">Blue Alphabet Shoes</h5>
+                        <p class="card-text">Denim style blue-white leather shoes for babies</p>
+                    </div>
+                    <div class="m-3">
+                        <h5>$1289</h5>
+                        <button class="btn cus-btn-buy-now">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/shoes/shoe-2.png" class="card-img-top cus-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-capitalize">Cris cros shoes</h5>
+                        <p class="card-text">Reddisd pink shoes with laces</p>
+                    </div>
+                    <div class="m-3">
+                        <h5>$799</h5>
+                        <button class="btn cus-btn-buy-now">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/shoes/shoe-3.png" class="card-img-top cus-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-capitalize">Blue mickey mouse shoes</h5>
+                        <p class="card-text">Stripe shoes with mickey mouse design</p>
+                    </div>
+                    <div class="m-3">
+                        <h5>$699</h5>
+                        <button class="btn cus-btn-buy-now">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shoes end -->
+
+    <!-- stroller start -->
+    <section class="container my-5" id="stroller">
+        <h1 class="text-uppercase">Stroller</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/stroller/stroller-1.png" class="card-img-top cus-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-capitalize">Black stroller 1</h5>
+                        <p class="card-text">High quality stroller with flexible wheeels</p>
+                    </div>
+                    <div class="m-3">
+                        <h5>$1000</h5>
+                        <button class="btn cus-btn-buy-now">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/stroller/stroller-2.png" class="card-img-top cus-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-capitalize">Black stroller 2</h5>
+                        <p class="card-text">High quality stroller with flexible wheeels</p>
+                    </div>
+                    <div class="m-3">
+                        <h5>$899</h5>
+                        <button class="btn cus-btn-buy-now">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0 shadow-lg">
+                    <img src="images/stroller/stroller-3.png" class="card-img-top cus-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-capitalize">Purple stroller</h5>
+                        <p class="card-text">High quality stroller with flexible wheeels</p>
+                    </div>
+                    <div class="m-3">
+                        <h5>$789</h5>
+                        <button class="btn cus-btn-buy-now">BUY NOW <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- stroller end -->
+
+    <!-- subscribe starts -->
+    <section class="container d-flex justify-content-center align-items-center rounded-4 cus-subscribe cus-bg-pink" id="subscribe">
+        <div class="text-center row">
+            <h1>STAY IN TOUCH</h1>
+            <p class="text-capitalize">Get updates on sales</p>
+            <div class="input-group mb-3 rounded-5 col-lg-6">
+                <input type="email" class="form-control border border-0" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+                <button class="btn cus-btn-send" type="button" id="button-addon2">Send</button>
+            </div> 
+        </div>
+    </section>
+    <!-- subscribe ends -->
+    </main>
+    <footer class="mt-5 text-center">
+        <p><small>&copy 2022. Sunshine E-commerce. All rights reserved. Tamema.</small></p>
+    </footer>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"crossorigin="anonymous"></script>
+</body>
+</html>

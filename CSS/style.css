@@ -1,0 +1,57 @@
+/* importing font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+/* css */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cus-bg-pink {
+    background-color: #DEB0DF;
+}
+
+.cus-slider-margin {
+    margin-top: 160px;
+}
+
+.slider-price {
+    color: #FF136F;
+}
+
+.cus-cat-width img{
+    width: 100px;
+}
+
+.cus-btn-buy-now {
+    background-image: linear-gradient(to right, #A16BFE 0%, #DEB0DF 100%);
+    border-radius: 6px;
+    border: none;
+    padding: 14px 20px;
+    color: white;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.cus-btn-buy-now i{
+    padding-left: 10px;
+}
+
+.cus-subscribe {
+    height: 455px;
+}
+
+.cus-img {
+    height: 50vh;
+    object-fit: contain;
+}
+
+.cus-btn-send {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #A16BFE 100%);
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+
+
+
+
